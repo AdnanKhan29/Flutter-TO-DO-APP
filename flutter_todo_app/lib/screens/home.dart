@@ -8,7 +8,7 @@ class Home extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(title: Text('ToDo App')),
       body: Container(
-        child: Text('This is home screen.'),
+        child: const Text('This is home screen.'),
       ),
     );
   }
